@@ -27,7 +27,7 @@ app.use(flash());
 
 //PASSPORT CONFIGURATION
 app.use(require("express-session")({
-    secret: "This is the key to my hashings!",
+    secret: "",
     resave: false,
     saveUninitialized: false
 }));
